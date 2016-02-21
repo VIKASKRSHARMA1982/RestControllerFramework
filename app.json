@@ -1,0 +1,19 @@
+{
+  "name": "RestControllerFramework",
+  "description": "restcontrollerframework",
+  "scripts": {
+  },
+  "env": {
+    "undefined": {
+      "required": true
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "urn:buildpack:heroku/java"
+    }
+  ]
+}
